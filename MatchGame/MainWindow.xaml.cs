@@ -28,7 +28,7 @@ namespace MatchGame
         }
 
         /// <summary>
-        /// SetupGame. The 8 sets of Emoji's are defined in here.
+        /// SetupGame. The 8 sets of Emoji's are defined in here. Also functionality to generate random layout.
         /// </summary>
         private void SetupGame()
         {
