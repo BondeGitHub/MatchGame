@@ -72,7 +72,7 @@ namespace MatchGame
                 {
                     if (textBlock.Name != "timeTextBlock")
                     {
-
+                        textBlock.Visibility = Visibility.Visible; //Added this line as Emoji's was not visible after the first run of the MatchGame.
                         int index = random.Next(animalEmoji.Count);
                         string nextEmoji = animalEmoji[index];
                         textBlock.Text = nextEmoji;
